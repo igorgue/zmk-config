@@ -43,8 +43,8 @@
 &trans  &kp G   &kp A   &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp B   &kp Z   &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &trans  &kp H   &trans    &trans  &trans  &trans
+                        &kp Y   &kp N   &trans    &trans  &trans  &trans
             >;
         };
     };
