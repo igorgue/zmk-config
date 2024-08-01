@@ -22,7 +22,13 @@
         sys: sys_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&mo 1>, <&macro_release>, <&kp F13>;
+            bindings =
+                <&macro_press>,
+                <&kp F13>,
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_release>,
+                <&kp F14>;
 
             label = "SYS_MACRO";
         };
@@ -30,7 +36,7 @@
         gaming: gaming_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&tog 2>, <&macro_release>, <&kp F14>;
+            bindings = <&macro_press>, <&tog 2>, <&macro_release>, <&kp F15>;
 
             label = "GAMING_MACRO";
         };
