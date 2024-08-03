@@ -53,7 +53,7 @@
 &kp B   &kp LSHFT  &kp Z   &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans  &trans                                    &trans  &trans  &trans  &trans
                            &trans  &kp H   &trans    &trans  &trans  &trans
-                           &kp Y   &kp N   &trans    &tog 2  &trans  &trans
+                           &kp Y   &kp N   &mo 1     &tog 2  &trans  &trans
             >;
         };
     };
