@@ -59,13 +59,13 @@
 
         system_3 {
             bindings = <
-&kp F6   &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &trans  &trans    &trans         &trans       &trans           &trans
-&kp F7   &trans   &trans   &trans  &trans  &trans    &trans  &trans    &trans         &trans       &kp PRINTSCREEN  &trans
-&kp F8   &trans   &trans   &trans  &trans  &trans    &trans  &trans    &trans         &trans       &trans           &trans
-&kp F9   &trans   &trans   &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &trans
-&kp F10  &kp F11  &kp F12  &trans                                      &trans         &trans       &trans           &trans
-                           &trans  &trans  &trans    &trans  &trans    &trans
-                           &trans  &trans  &trans    &trans  &trans    &trans
+&kp F6   &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &trans  &trans      &trans             &trans       &trans           &trans
+&kp F7   &trans   &trans   &trans  &trans  &trans    &trans  &trans      &trans             &trans       &kp PRINTSCREEN  &trans
+&kp F8   &trans   &trans   &trans  &trans  &trans    &trans  &trans      &trans             &trans       &trans           &trans
+&kp F9   &trans   &trans   &trans  &trans  &trans    &trans  &kp HOME    &kp PAGE_DOWN      &kp PAGE_UP  &kp END          &trans
+&kp F10  &kp F11  &kp F12  &trans                                        &trans             &trans       &trans           &trans
+                           &trans  &trans  &trans    &trans  &kp C_MUTE  &kp C_VOLUME_UP
+                           &trans  &trans  &trans    &trans  &trans      &kp C_VOLUME_DOWN
             >;
         };
     };
