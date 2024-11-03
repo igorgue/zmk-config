@@ -29,6 +29,7 @@
             flavor = "balanced";
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <30 31 32 33 34 35>;
+            quick-tap-ms = <150>;
         };
 
         ctrl_esc: ctrl_esc {
@@ -51,6 +52,7 @@
             flavor = "balanced";
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <24 25 26 27 28 29>;
+            quick-tap-ms = <150>;
         };
     };
 
