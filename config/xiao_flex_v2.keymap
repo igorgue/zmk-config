@@ -28,7 +28,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <30 31 32 33 34 35>;
+            hold-trigger-key-positions = <31 32 33 34>;
             quick-tap-ms = <200>;
             hold-trigger-on-release;
         };
@@ -42,6 +42,7 @@
             tapping-term-ms = <200>;
             require-prior-idle-ms = <125>;
             hold-trigger-on-release;
+            hold-trigger-key-positions = <25 26 27 28 31 32 33 34 25 26 27 28>;
         };
 
         hmr: hmr {
@@ -53,7 +54,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <24 25 26 27 28 29>;
+            hold-trigger-key-positions = <24 25 26 27 28>;
             quick-tap-ms = <200>;
             hold-trigger-on-release;
         };
