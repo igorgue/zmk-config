@@ -123,13 +123,13 @@
 
         homerow_mods_training_4 {
             bindings = <
-&trans  &trans           &trans           &trans        &trans             &trans     &trans  &trans              &trans        &trans            &trans                    &trans
-&trans  &trans           &trans           &trans        &trans             &trans     &trans  &trans              &trans        &trans            &trans                    &trans
-&none   &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &trans     &trans  &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SEMICOLON  &trans
-&none   &trans           &trans           &trans        &trans             &trans     &trans  &trans              &trans        &trans            &trans                    &trans
-&trans  &trans           &trans           &trans                                                                  &trans        &trans            &none                     &none
-                                          &trans        &trans             &kp ESC    &none   &trans              &trans
-                                          &none         &none              &trans     &trans  &none               &none
+&trans   &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
+&trans   &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
+&kp ESC  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &trans    &trans  &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SEMICOLON  &trans
+&none    &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
+&trans   &trans           &trans           &trans                                                                 &trans        &trans            &none                     &none
+                                           &trans        &trans             &none     &none   &trans              &trans
+                                           &none         &none              &trans    &trans  &none               &none
             >;
         };
 
