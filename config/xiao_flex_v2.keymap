@@ -128,7 +128,7 @@
 &none    &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
 &trans   &trans           &trans           &trans                                                                 &trans        &trans            &none                     &none
                                            &trans        &trans             &none     &none   &trans              &trans
-                                           &none         &none              &trans    &trans  &none               &none
+                                           &none         &none              &sl 1     &sl 1   &none               &none
             >;
         };
 
@@ -140,7 +140,7 @@
 &trans  &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
 &trans  &trans           &trans           &trans                                                                 &trans        &trans            &trans                    &trans
                                           &trans        &trans             &trans    &trans  &trans              &trans
-                                          &trans        &trans             &trans    &trans  &trans              &trans
+                                          &trans        &trans             &sl 1     &sl 1   &trans              &trans
             >;
         };
     };
