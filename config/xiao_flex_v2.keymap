@@ -52,7 +52,6 @@
             tapping-term-ms = <180>;
             hold-trigger-key-positions = <25 26 27 28 31 32 33 34 25 26 27 28>;
             hold-while-undecided;
-            hold-while-undecided-linger;
         };
 
         hmr: hmr {
