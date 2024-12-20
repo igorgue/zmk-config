@@ -28,6 +28,11 @@
             bindings = <&tog 4>;
             key-positions = <28 31 65>;
         };
+
+        smol {
+            bindings = <&tog 6>;
+            key-positions = <58 59>;
+        };
     };
 
     behaviors {
@@ -154,8 +159,32 @@
 &none  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G    &kp H  &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SEMICOLON  &none
 &none  &kp Z            &kp X            &kp C         &kp V              &kp B    &kp N  &kp M               &kp COMMA     &kp DOT           &kp SLASH                 &none
 &none  &none            &none            &none                                                                &none         &none             &none                     &none
-                                         &kp SPACE     &kp BSPC           &sl 2    &sl 1  &kp DEL             &kp ENTER
+                                         &kp SPACE     &kp BSPC           &sl 7    &sl 8  &kp DEL             &kp ENTER
                                          &none         &none              &none    &none  &none               &none
+            >;
+        };
+
+        smol_1 {
+            bindings = <
+&trans  &trans        &trans    &trans  &trans     &trans       &trans     &trans  &trans            &trans             &trans            &trans
+&trans  &kp NUMBER_1  &kp N2    &kp N3  &kp N4     &kp N5       &kp N6     &kp N7  &kp N8            &kp N9             &kp N0            &trans
+&trans  &kp LEFT      &kp DOWN  &kp UP  &kp RIGHT  &kp GRAVE    &kp EQUAL  &trans  &trans            &trans             &kp SINGLE_QUOTE  &trans
+&trans  &kp ESCAPE    &trans    &trans  &trans     &kp TAB      &kp MINUS  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &trans
+&trans  &trans        &trans    &trans                                             &trans            &trans             &trans            &trans
+                                &trans  &trans     &trans       &trans     &trans  &trans
+                                &trans  &trans     &trans       &trans     &trans  &trans
+            >;
+        };
+
+        smol_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans     &trans   &trans  &trans  &trans  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &kp F11    &kp F12  &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans   &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans                                      &trans  &trans  &trans   &trans
+                        &trans  &trans  &trans     &trans   &trans  &trans
+                        &trans  &trans  &trans     &trans   &trans  &trans
             >;
         };
     };
