@@ -19,18 +19,8 @@
             key-positions = <65 64>;
         };
 
-        homerow_mods_1 {
-            bindings = <&tog 4>;
-            key-positions = <64 28 31>;
-        };
-
-        homerow_mods_2 {
-            bindings = <&tog 4>;
-            key-positions = <28 31 65>;
-        };
-
         smol {
-            bindings = <&tog 6>;
+            bindings = <&tog 5>;
             key-positions = <58 59>;
         };
     };
@@ -99,7 +89,7 @@
 &kp F1      &kp F2        &kp F3         &kp F4                &kp F5        &kp F6          &kp F7      &kp F8       &kp F9             &kp F10         &kp F11          &kp F12
 &kp CAPS    &trans        &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &mkp LCLK     &mkp RCLK       &trans      &kp HOME     &kp PAGE_DOWN      &kp PAGE_UP     &kp END          &trans
 &trans      &trans        &trans         &trans                                                                       &mmv MOVE_LEFT     &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT
-                                         &kp C_NEXT            &kp C_PP      &tog 5          &trans      &kp C_MUTE   &kp C_VOLUME_UP
+                                         &kp C_NEXT            &kp C_PP      &tog 4          &trans      &kp C_MUTE   &kp C_VOLUME_UP
                                          &kp C_PREV            &trans        &trans          &trans      &trans       &kp C_VOLUME_DOWN
             >;
         };
@@ -122,21 +112,9 @@
 &kp F7   &trans   &trans   &trans      &trans    &trans    &trans  &trans      &trans             &trans       &kp PRINTSCREEN  &trans
 &kp F8   &trans   &trans   &trans      &trans    &trans    &trans  &trans      &trans             &trans       &trans           &trans
 &kp F9   &trans   &trans   &trans      &trans    &trans    &trans  &kp HOME    &kp PAGE_DOWN      &kp PAGE_UP  &kp END          &trans
-&kp F10  &kp F11  &kp F12  &trans                                              &trans             &trans       &trans           &trans
+&kp F10  &kp F11  &kp F12  &trans                                              &kp LEFT           &kp DOWN     &kp UP_ARROW     &kp RIGHT
                            &kp C_NEXT  &kp C_PP  &trans    &trans  &kp C_MUTE  &kp C_VOLUME_UP
                            &kp C_PREV  &trans    &trans    &trans  &trans      &kp C_VOLUME_DOWN
-            >;
-        };
-
-        homerow_mods_training_4 {
-            bindings = <
-&trans   &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
-&trans   &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
-&kp ESC  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &trans    &trans  &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SEMICOLON  &trans
-&none    &trans           &trans           &trans        &trans             &trans    &trans  &trans              &trans        &trans            &trans                    &trans
-&trans   &trans           &trans           &trans                                                                 &trans        &trans            &none                     &none
-                                           &trans        &trans             &none     &none   &trans              &trans
-                                           &none         &none              &sl 1     &sl 1   &none               &none
             >;
         };
 
@@ -159,7 +137,7 @@
 &none  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G    &kp H  &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SEMICOLON  &none
 &none  &kp Z            &kp X            &kp C         &kp V              &kp B    &kp N  &kp M               &kp COMMA     &kp DOT           &kp SLASH                 &none
 &none  &none            &none            &none                                                                &none         &none             &none                     &none
-                                         &kp SPACE     &kp BSPC           &sl 7    &sl 8  &kp ESCAPE          &kp ENTER
+                                         &kp SPACE     &kp BSPC           &sl 6    &sl 7  &kp ESCAPE          &kp ENTER
                                          &none         &none              &none    &none  &none               &none
             >;
         };
