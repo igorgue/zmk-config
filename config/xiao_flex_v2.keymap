@@ -68,7 +68,7 @@
         bt_hold_3s: bt_hold_3s {
             compatible = "zmk,behavior-hold-tap";
             label = "BT_HOLD_3S";
-            bindings = <&bt>, <&none>;
+            bindings = <&bt>, <&trans>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3000>;
