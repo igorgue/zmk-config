@@ -23,11 +23,14 @@
             key-positions = <58 59>;
         };
 
-        bt_clr {
+        bt_clr_l {
             bindings = <&bt BT_CLR>;
-            key-positions = <0>;
-            timeout-ms = <3000>;
-            layers = <1>;
+            key-positions = <0 36 64>;
+        };
+
+        bt_clr_r {
+            bindings = <&bt BT_CLR>;
+            key-positions = <0 36 65>;
         };
     };
 
